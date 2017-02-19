@@ -1,0 +1,4 @@
+
+# dev database details
+spring.datasource.url: 'jdbc:h2:mem:'
+spring.datasource.platform: h2

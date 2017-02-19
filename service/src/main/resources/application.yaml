@@ -1,0 +1,9 @@
+spring.profiles.active: dev
+
+# production database details
+spring.datasource.url: 'jdbc:mysql://localhost:3306/toptal'
+spring.datasource.username: root
+spring.datasource.password:
+
+# prevent Hibernate from causing trouble, use SQL scripts
+spring.jpa.hibernate.ddl-auto: none
